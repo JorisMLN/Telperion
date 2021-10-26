@@ -7,13 +7,18 @@ namespace EldarChronicle.Services
   public static class ChronicleService
   {
     static List<Chronicle> Chronicles { get; }
-    static int nextId = 3;
+    static int nextId = 7;
     static ChronicleService()
     {
       Chronicles = new List<Chronicle>
       {
+        new Chronicle { Id = 0, Name = "Bienvenue", Season = 1, Text="Youpi" },
         new Chronicle { Id = 1, Name = "Le refuge", Season = 1, Text="ablabalbalabalbalbalba" },
-        new Chronicle { Id = 2, Name = "Urzil des Cretes Sanglantes", Season = 1, Text="ablabalbalabalbalbalba" }
+        new Chronicle { Id = 2, Name = "Urzil des Cretes Sanglantes", Season = 1, Text="ablabalbalabalbalbalba" },
+        new Chronicle { Id = 3, Name = "Name 3", Season = 1, Text="3ablabalbalabalbalbalba" },
+        new Chronicle { Id = 4, Name = "Name 4", Season = 1, Text="4ablabalbalabalbalbalba" },
+        new Chronicle { Id = 5, Name = "Name 5", Season = 1, Text="5ablabalbalabalbalbalba" },
+        new Chronicle { Id = 6, Name = "Name 6", Season = 1, Text="6ablabalbalabalbalbalba" },
       };
     }
 
