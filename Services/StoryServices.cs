@@ -12,8 +12,43 @@ namespace EldarStory.Services
     {
       Stories = new List<Story>
       {
-        new Story { Id = 0, Content = "Bienvenue", Info = "loul", Icon ="Youpi" },
-        new Story { Id = 1, Content = "Aurevoir", Info = "luul", Icon ="Hourra" },
+        new Story
+        { 
+          Id = 0,
+        
+          Content = new StoryDetails
+          { 
+            Title = "Fondation de la Guilde", 
+            Details = new List<string>{"toto", "tata"}
+          },
+
+          Info = new StoryDetails
+          { 
+            Title = "Decembre", 
+            Details = new List<string>{"toto", "tata"}
+          },
+
+          Icon = "Youpi" 
+        },
+
+        new Story
+        { 
+          Id = 1,
+
+          Content = new StoryDetails
+          { 
+            Title = "Bienvenue", 
+            Details = new List<string>{"toto", "tata"}
+          },
+
+          Info = new StoryDetails
+          { 
+            Title = "Bienvenue", 
+            Details = new List<string>{"toto", "tata"}
+          },
+
+          Icon = "Hourra" 
+        },
       };
     }
 
