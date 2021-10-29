@@ -15,39 +15,81 @@ namespace EldarStory.Services
         new Story
         { 
           Id = 0,
-        
           Content = new StoryDetails
           { 
             Title = "Fondation de la Guilde", 
-            Details = new List<string>{"toto", "tata"}
+            Details = new List<string>{"Arsenal de Vizunah", "13 Décembre 2012"}
           },
-
           Info = new StoryDetails
           { 
-            Title = "Decembre", 
-            Details = new List<string>{"toto", "tata"}
+            Title = "Guild Wars 2", 
+            Details = new List<string>{"PvP", "McM"}
           },
-
-          Icon = "Youpi" 
+          Icon = "laptopMacIcon" 
         },
 
         new Story
         { 
           Id = 1,
-
           Content = new StoryDetails
           { 
-            Title = "Bienvenue", 
-            Details = new List<string>{"toto", "tata"}
+            Title = "Chagement de Nom", 
+            Details = new List<string>{"Vizunah NightWatch", "Février 2013"}
           },
-
           Info = new StoryDetails
           { 
-            Title = "Bienvenue", 
-            Details = new List<string>{"toto", "tata"}
+            Title = "Guild Wars 2", 
+            Details = new List<string>{"PvP", "McM"}
           },
+          Icon = "repeatIcon" 
+        },
 
-          Icon = "Hourra" 
+        new Story
+        { 
+          Id = 2,
+          Content = new StoryDetails
+          { 
+            Title = "Chagement de Nom", 
+            Details = new List<string>{"Eldarium", "Avril 2013"}
+          },
+          Info = new StoryDetails
+          { 
+            Title = "Guild Wars 2", 
+            Details = new List<string>{"PvP", "McM"}
+          },
+          Icon = "repeatIcon" 
+        },
+
+        new Story
+        { 
+          Id = 3,
+          Content = new StoryDetails
+          { 
+            Title = "Gallion & TardePack", 
+            Details = new List<string>{"Juin 2013", ""}
+          },
+          Info = new StoryDetails
+          { 
+            Title = "ArcheAge", 
+            Details = new List<string>{"PvP", "PvE", "Housing"}
+          },
+          Icon = "repeatIcon" 
+        },
+
+        new Story
+        { 
+          Id = 4,
+          Content = new StoryDetails
+          { 
+            Title = "Alliance Le Pacte d'Orion", 
+            Details = new List<string>{"Aout 2013", ""}
+          },
+          Info = new StoryDetails
+          { 
+            Title = "ArcheAge", 
+            Details = new List<string>{"PvP", "PvE", "Housing"}
+          },
+          Icon = "repeatIcon" 
         },
       };
     }
