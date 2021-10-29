@@ -1,5 +1,3 @@
-using System;
-
 namespace EldarChronicle.Models
 {
   public class Chronicle
