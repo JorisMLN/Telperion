@@ -193,24 +193,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JorisMonleon\\.nuget\\packages\\": {}
+    "C:\\Users\\bibou\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JorisMonleon\\ProjetPersoTest\\Telperion\\back.csproj",
+      "projectUniqueName": "D:\\DevProjetWeb\\Telperion\\back.csproj",
       "projectName": "back",
-      "projectPath": "C:\\JorisMonleon\\ProjetPersoTest\\Telperion\\back.csproj",
-      "packagesPath": "C:\\Users\\JorisMonleon\\.nuget\\packages\\",
-      "outputPath": "C:\\JorisMonleon\\ProjetPersoTest\\Telperion\\obj\\",
+      "projectPath": "D:\\DevProjetWeb\\Telperion\\back.csproj",
+      "packagesPath": "C:\\Users\\bibou\\.nuget\\packages\\",
+      "outputPath": "D:\\DevProjetWeb\\Telperion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JorisMonleon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\bibou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -252,7 +254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
